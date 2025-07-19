@@ -1,0 +1,15 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Tailwind override for react-calendar */
+.react-calendar {
+  border: none;
+  width: 100%;
+  font-family: inherit;
+}
+
+.react-calendar__tile--active {
+  background-color: #3b82f6 !important;
+  color: white !important;
+}
